@@ -664,19 +664,19 @@ Chrome scrollbar:
          Adds Pictures for Favorite Studios
   ╚══════════════════════════════════════════════════╝*/
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(1) {
-    content: url(https://files.catbox.moe/pe0yss.jpg);
+    content: url(https://files.catbox.moe/fpou4x.jpg);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(2) {
-    content: url(https://files.catbox.moe/qd7bjd.png);
+    content: url(https://files.catbox.moe/ifobrc.jpg);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(3) {
-    content: url(https://files.catbox.moe/ufcmt6.jpg);
+    content: url(https://files.catbox.moe/kqa56g.jpg);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(4) {
-    content: url(https://files.catbox.moe/e6hdhr.jpg);
+    content: url(https://files.catbox.moe/d9hq0s.jpg);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(5) {
-    content: url(https://files.catbox.moe/1atamx.jpg);
+    content: url(https://files.catbox.moe/6i1iou.jpg);
 }
 
 /*╔══════════════════════════════════════════════════╗
@@ -692,7 +692,7 @@ Chrome scrollbar:
      content: url(https://files.catbox.moe/ggr9g2.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(4)>div>a:nth-child(4):hover {
-     content: url(https://files.catbox.moe/lq94zt.gif);
+     content: url(https://files.catbox.moe/d9hq0s.jpg);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(4)>div>a:nth-child(5):hover {
      content: url(https://files.catbox.moe/gqknxb.gif);
@@ -715,4 +715,11 @@ Chrome scrollbar:
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(6)>div>a:nth-child(5):hover {
      content: url(https://files.catbox.moe/5m01yv.gif);
+}
+
+/*╔══════════════════════════════════════════════════╗
+                 Border around Favorites
+  ╚══════════════════════════════════════════════════╝*/
+.favourite[data-v-0317d914] {
+    border: 1px solid #d878cb;
 }
