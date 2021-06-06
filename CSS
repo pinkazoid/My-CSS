@@ -660,6 +660,10 @@ Chrome scrollbar:
    color: #d878cb;
 }
 
+.filter-group a[data-v-1e00b9da]:hover, .hohStatsTrigger:hover {
+   color: #d878cb;
+}
+
 /*╔══════════════════════════════════════════════════╗
          Adds Pictures for Favorite Studios
   ╚══════════════════════════════════════════════════╝*/
