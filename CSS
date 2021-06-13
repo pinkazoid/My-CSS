@@ -475,7 +475,7 @@ a, a:visited {
     margin-bottom: 20px;
     margin-right: 10px;
     transition: .4s;
-    font-size: 1.5rem;
+    font-size: 1.55rem;
     transition: .5s;
     text-transform: capitalize;
     animation-duration: 20s;
@@ -494,7 +494,7 @@ a, a:visited {
      left: 4px;
      padding: 5px 8px;
      border-radius: 10px;
-     font-size: 1.2rem;
+     font-size: 1.1rem;
      font-family: cursive;
      font-weight: bold;
      color: #fff;
