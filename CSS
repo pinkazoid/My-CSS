@@ -753,7 +753,7 @@ Chrome scrollbar:
 /*╔══════════════════════════════════════════════════╗
                  Makes a bunch of things transparent
   ╚══════════════════════════════════════════════════╝*/
-.header-wrap > .nav-wrap, .user .about > div.content-wrap, .activity-entry > .wrap, .activity-edit > .markdown-editor, .stats-wrap.full-width > .list-stats.content-wrap, .user .about > div.content-wrap, .desktop > .activity-history.content-wrap, .desktop > .genre-overview.content-wrap, .favourite, .scroller > .load-more, .el-textarea, .el-dropdown-menu__item, #hohNotifications > div, .list-wrap, .reply.preview, .activity-replies > .reply, .overview[data-v-5c30286e] .content-wrap, .input[data-v-c574a71c] .el-textarea__inner, .favourites.preview .favourites-wrap .favourite[data-v-3f86aedd], .favourites.preview .favourites-wrap>div[data-v-3f86aedd], .favourites-wrap[data-v-3f86aedd] {
+.header-wrap > .nav-wrap, .user .about > div.content-wrap, .activity-entry > .wrap, .activity-edit > .markdown-editor, .stats-wrap.full-width > .list-stats.content-wrap, .user .about > div.content-wrap, .desktop > .activity-history.content-wrap, .desktop > .genre-overview.content-wrap, .favourite, .scroller > .load-more, .el-textarea, .el-dropdown-menu__item, #hohNotifications > div, .list-wrap, .reply.preview, .activity-replies > .reply, .overview[data-v-5c30286e] .content-wrap, .input[data-v-c574a71c] .el-textarea__inner, .favourites.preview .favourites-wrap .favourite[data-v-3f86aedd], .favourites.preview .favourites-wrap>div[data-v-3f86aedd] {
       background-color: rgba(255,255,255,0.05);
       box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
 }
