@@ -10,7 +10,7 @@
                Adds Background Image 
 ==================================================*/
 body {
-    background-image: url("https://files.catbox.moe/1lv6rb.jpg");
+    background-image: url("https://wallpaperaccess.com/full/1767711.jpg");
     background-position: 50% 50%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body {
          Changes AL Home Logo & Adds Hover 
 ==================================================*/
 .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/gg08uk.png);
+    content: url(https://files.catbox.moe/382cnd.png);
 }
 .logo:hover {
     transition: transform 0.5s ease-in-out;
@@ -45,7 +45,7 @@ body {
        Adds a gif or image to search button 
 ==================================================*/
 .search[data-v-4fbac4e1]:hover svg {
-    background: url(https://i.gifer.com/19za.gif);
+    background: url(https://files.catbox.moe/i17g3d.gif);
     background-repeat: no-repeat;
     background-size: contain;
     color: #0010FF00;
@@ -92,9 +92,9 @@ body {
       Transparent Container around everything
 ==================================================*/
   .header-wrap > .nav-wrap {
-    max-width: 80%;
+    max-width: 77%;
     margin: 0 auto;
-    border-radius: 30px 30px 0 0;
+    border-radius: 4px;
     box-shadow: var(--nutella-ns);
     position: relative;
   }
@@ -121,8 +121,7 @@ body {
     width: 100%;
     background: rgb(var(--color-blue));
   }
-  .content.container {
-    background: rgba(var(--color-foreground-grey),0.7);
+ .content.container {
     max-width: 80%;
     padding: 30px;
     border-radius: 0 0 30px 30px;
@@ -136,7 +135,7 @@ Changes stuff inside container(hover and other stuff)
     margin-top: 0;
   }
   .about > .stats-wrap > .content-wrap, .desktop > .content-wrap, .activity-entry > .wrap, .favourites-wrap > .favourite, .scroller > .load-more, .user-page-unscoped .markdown-editor, .el-textarea__inner, .input {
-    border-radius: 20px !important;
+    border-radius: 4px !important;
     box-shadow: var(--nutella-bs);
     transition: all 0.5s ease-in-out;
   }
@@ -244,7 +243,7 @@ Changes stuff inside container(hover and other stuff)
 }
 .link[data-v-4fbac4e1]:hover {
     transform: scale(1.2);
-    color: #d878cb
+    color: #da4127
 }
 
 /*==================================================
@@ -254,9 +253,9 @@ Changes stuff inside container(hover and other stuff)
     max-width: 65%;
     position: relative;
     margin: 1vw 0;
-    background-color: rgba(21,31,46,255) !important;
+    background-color: rgba(255,255,255,0.05) !important;
     box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
-    border-radius: 15px;
+    border-radius: 4px;
 }
 .wrap[data-v-4fbac4e1] {
     align-items: center;
@@ -304,7 +303,7 @@ Changes stuff inside container(hover and other stuff)
   .nav .wrap .search:after {
       content: "Search AniList";
       margin-left: 10px;
-      color: #d878cb;
+      color: #da4127;
   }
   .nav .wrap .user {
       grid-column-start: 4;
@@ -373,7 +372,7 @@ Changes stuff inside container(hover and other stuff)
   background: #000;
 }
 .theme-selector > h2 {
-  color: #d878cb;
+  color: #da4127;
 }
 a, a:visited {
     color: rgb(var(--color-text));
@@ -443,14 +442,21 @@ a, a:visited {
       Border Around (almost) Everything
 ==================================================*/
 .overview .wrap, .overview .content-wrap, .scroller > .load-more {
-    border: 1px solid #d878cb;
+    border: 1px solid #e80c0c;
+}
+
+/*==================================================
+      Border Around (almost) Everything
+==================================================*/
+.overview .wrap, .overview .content-wrap, .scroller > .load-more {
+    border: 1px solid #e80c0c;
 }
 
  /*==================================================
              Activity Creator Border
   ==================================================*/
 .input {
-    border: 1px solid #d878cb;
+    border: 1px solid #e80c0c;
     overflow: hidden;
 }
   
@@ -458,7 +464,7 @@ a, a:visited {
                   Badge next to name
 ==================================================*/
   .name[data-v-4f7beb35]::after {
-    content: "These damn rich people ♡";
+    content: "Ryōiki Tenkai ♡";
     position: relative;
     left: 10px;
     top: 10px;
@@ -502,7 +508,7 @@ a, a:visited {
 /*==================================================
        Special Badges - Only for Certain People
 ==================================================*/
-a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'These damn rich people ♡'; }
+a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'Ryōiki Tenkai ♡'; }
 
 a[href="/user/uiriamu/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'the sexciest ♡'; }
 
@@ -569,6 +575,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
       font-style: italic;
       justify-content: flex-end;
       display: flex;
+      color: #FFFFFF;
   }
 
 /*==================================================
@@ -586,7 +593,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 ==================================================*/
 html {
     scrollbar-width: thin;
-    scrollbar-color: #d878cb;
+    scrollbar-color: #e80c0c;
 }
 
 Chrome scrollbar:
@@ -600,7 +607,7 @@ Chrome scrollbar:
     background: #01232d;
 }
 ::-webkit-scrollbar-thumb {
-    background: #d878cb;
+    background: #e80c0c;
     -webkit-border-radius: 1ex;
 }
 
@@ -608,7 +615,7 @@ Chrome scrollbar:
              Spoiler Tag
 ==================================================*/
 .markdown .markdown-spoiler::before {
-    color: #d878cb;
+    color: #da4127;
     font-weight: 500;
     background: #0b1622;
     border-radius: 20px;
@@ -649,19 +656,23 @@ Chrome scrollbar:
     visibility: hidden;
 }
 
-//*╔══════════════════════════════════════════════════╗
-     Changes the color of (most) text to white, and active text pink
+/*╔══════════════════════════════════════════════════╗
+     Changes the color of (most) text to white, and active text another color
   ╚══════════════════════════════════════════════════╝*/
-.filter-group .draggable > span[data-v-063397cc], .filter-group > span[data-v-063397cc], .overview[data-v-5c30286e] .section-header, .footer .links a[data-v-a5dce466], .filter-group .group-header[data-v-063397cc], .section-header[data-v-3f86aedd], .medialist.table.compact .section-name, .filter-group .group-header[data-v-1e00b9da], .filter-group a[data-v-1e00b9da], .highlight .label[data-v-72dc5b51], .heading h3[data-v-72dc5b51], .filter-group[data-v-e4963b98] .group-header, .user-social .filter-group span, .title[data-v-e74f4a6a], .title[data-v-ee1a47a4], .el-dropdown-link, .no-reviews[data-v-5e6a17b4], .filter-group[data-v-3ed82f3f] .group-header, .filter-group span[data-v-3ed82f3f], .no-submissions[data-v-c0cad978] {
+.filter-group .draggable > span[data-v-063397cc], .filter-group > span[data-v-063397cc], .overview[data-v-5c30286e] .section-header, .footer .links a[data-v-a5dce466], .filter-group .group-header[data-v-063397cc], .section-header[data-v-3f86aedd], .medialist.table.compact .section-name, .filter-group .group-header[data-v-1e00b9da], .filter-group a[data-v-1e00b9da], .highlight .label[data-v-72dc5b51], .heading h3[data-v-72dc5b51], .filter-group[data-v-e4963b98] .group-header, .user-social .filter-group span, .title[data-v-e74f4a6a], .title[data-v-ee1a47a4], .el-dropdown-link, .no-reviews[data-v-5e6a17b4], .filter-group[data-v-3ed82f3f] .group-header, .filter-group span[data-v-3ed82f3f], .no-submissions[data-v-c0cad978], .time[data-v-1bf2cf4e], .hohMilestones .stat .label, .secondary-link[data-v-04b245e6], .load-more[data-v-6f203cf2], .hohPinned .time {
     color: #FFFFFF;
 }
 
-.filter-group .active[data-v-063397cc], .filter-group a.router-link-active[data-v-1e00b9da], .user-social .filter-group span.active, .filter-group span.active[data-v-3ed82f3f] {
-   color: #d878cb;
+.actions .time, .actions .time .action, .footer .links a, .hohBackgroundCover, .hohMediaImageContainer > a, .hohNotification, .hohUserImage, .home .activity-feed-wrap .section-header .el-dropdown-menu__item, .markdown, .markdown img, .markdown-editor > div, .result .info, .theme-preview.dark-contrast, .time .action.active, .user .activity-feed-wrap .section-header .el-dropdown-menu__item, a:-webkit-any-link, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .primary-link[data-v-04b245e6], .primary-link .icon[data-v-04b245e6], .primary-link .icon[data-v-38edf8f8], .list.small .details[data-v-1bf2cf4e], .input .el-textarea__inner, b, strong, .markdown h1, .markdown h2, .markdown h3, .markdown h4, .markdown h5, .label[data-v-aedb6876] {
+       color: #FFFFFF;
 }
 
-.filter-group a[data-v-1e00b9da]:hover, .hohStatsTrigger:hover {
-   color: #d878cb;
+.filter-group a[data-v-1e00b9da]:hover, .hohStatsTrigger:hover, .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .footer .links a:hover {
+   color: #da4127;
+}
+
+.filter-group .active[data-v-063397cc], .filter-group a.router-link-active[data-v-1e00b9da], .user-social .filter-group span.active, .filter-group span.active[data-v-3ed82f3f] {
+   color: #da4127;
 }
 
 /*╔══════════════════════════════════════════════════╗
@@ -725,5 +736,35 @@ Chrome scrollbar:
                  Border around Favorites
   ╚══════════════════════════════════════════════════╝*/
 .favourite[data-v-0317d914] {
-    border: 1px solid #d878cb;
+    border: 1px solid #e80c0c;
+}
+
+.favourite[data-v-0317d914]:hover {
+    border: 1px solid #FFFFFF;
+}
+
+/*╔══════════════════════════════════════════════════╗
+                 Changes extension additions font color
+  ╚══════════════════════════════════════════════════╝*/
+.hohStatsTrigger, .hohStepper {
+     color: #FFFFFF
+}
+
+/*╔══════════════════════════════════════════════════╗
+                 Makes a bunch of things transparent
+  ╚══════════════════════════════════════════════════╝*/
+.header-wrap > .nav-wrap, .user-wrap > .dropdown, .user .about > div.content-wrap, .activity-entry > .wrap, .activity-edit > .markdown-editor, .stats-wrap.full-width > .list-stats.content-wrap, .user .about > div.content-wrap, .desktop > .activity-history.content-wrap, .desktop > .genre-overview.content-wrap, .favourite, .scroller > .load-more, .el-textarea, .el-dropdown-menu__item, #hohNotifications > div, .list-wrap, .reply.preview, .activity-replies > .reply, .overview[data-v-5c30286e] .content-wrap, .input[data-v-c574a71c] .el-textarea__inner, .favourites-wrap[data-v-3f86aedd] {
+      background-color: rgba(255,255,255,0.05);
+      box-shadow: 0 10px 20px rgb(0 0 0 / 50%);
+}
+
+/*╔══════════════════════════════════════════════════╗
+                 Changes bottom and top navbar font to white
+  ╚══════════════════════════════════════════════════╝*/
+.nav .link[data-v-4f7beb35], .link[data-v-4fbac4e1] { 
+       color: #FFFFFF;
+}
+
+.nav .router-link-active[data-v-4f7beb35] {
+       color: #da4127;
 }
