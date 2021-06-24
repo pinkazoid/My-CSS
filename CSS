@@ -573,19 +573,3 @@ Changes stuff inside container(hover and other stuff)
     color: #0010FF00;
     transform: scale(10) translate(0px, 13px) !important;
 }
-
-/*==================================================
-   Re-aligns more stuff... Part of shorter navbar
-==================================================*/
-.content.container {
-    max-width: 80%;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.activity-feed-wrap[data-v-09492909] {
-    margin-left: 1%;
-}
-.stats-wrap[data-v-5c30286e]
-{
-    margin-left: 1%;
-}
