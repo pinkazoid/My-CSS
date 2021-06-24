@@ -424,7 +424,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 /*==================================================
                      Text hover colors
 ==================================================*/
-.filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover {
+.filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .hohStatsTrigger:hover {
       color: #3db4f2;
 }
 
