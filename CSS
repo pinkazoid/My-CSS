@@ -367,7 +367,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
   }
 
 /*==================================================
-    Favorites section   (ChriSenpai fix) - Also removes container bg
+    Favorites section   (ChriSenpai fix) // Also removes favorite's container bg
 ==================================================*/
 .overview .favourites > .favourites-wrap {
      overflow: visible;
@@ -430,35 +430,6 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 
 .medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover {
       color: #FFFFFF;
-}
-
-/*==================================================
-       Changes Nav section. - Shorter navbar
-==================================================*/
-.nav-wrap[data-v-5445dac8] {
-    background: rgb(var(--color-foreground));
-    width: 80%;
-    margin: 0 auto;
-    border-radius: 30px;
-}
-.nav[data-v-5445dac8] {
-    padding: 0px;
-}
-
-/*==================================================
-   Re-aligns more stuff... Part of shorter navbar
-==================================================*/
-.content.container {
-    max-width: 80%;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-.activity-feed-wrap[data-v-09492909] {
-    margin-left: 1%;
-}
-.stats-wrap[data-v-5c30286e]
-{
-    margin-left: 1%;
 }
 
 /*==================================================
@@ -556,7 +527,7 @@ Changes stuff inside container(hover and other stuff)
     transform: scale(1.025);
   }
   .activity-replies > .reply {
-    border-radius: 20px;
+    border-radius: 4px;
   }
   .reply:hover .header > .name {
     opacity: 1;
