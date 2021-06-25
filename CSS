@@ -66,7 +66,7 @@
 }
 
 /*╔══════════════════════════════════════════════════╗
-         Adds gifs for favorite anime
+         Adds gifs for favorite anime (ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(4)>div>a:nth-child(1):hover {
      content: url(https://files.catbox.moe/xxbw2j.gif);
@@ -85,7 +85,7 @@
 }
 
 /*╔══════════════════════════════════════════════════╗
-         Adds gifs for favorite characters
+         Adds gifs for favorite characters (ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(6)>div>a:nth-child(1):hover {
      content: url(https://files.catbox.moe/sm50vq.gif);
@@ -367,7 +367,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
   }
 
 /*==================================================
-    Favorites section   (ChriSenpai fix) // Also removes favorite's container bg
+    Favorites section (ChriSenpai fix) // Also removes favorite's container bg
 ==================================================*/
 .overview .favourites > .favourites-wrap {
      overflow: visible;
@@ -534,7 +534,7 @@ Changes stuff inside container(hover and other stuff)
   }
 
 /*╔══════════════════════════════════════════════════╗
-         Adds Pictures for Favorite Studios
+      Adds Pictures for Favorite Studios (ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(1) {
     content: url(https://files.catbox.moe/fpou4x.jpg);
@@ -553,7 +553,7 @@ Changes stuff inside container(hover and other stuff)
 }
 
 /*╔══════════════════════════════════════════════════╗
-                 Border around Favorites
+             Border around Favorites
   ╚══════════════════════════════════════════════════╝*/
 .favourite[data-v-0317d914] {
     border: 1px solid #3db4f2;
