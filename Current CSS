@@ -1,6 +1,30 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*╔══════════════════════════════════════════════════╗
+                   Hides history days that show no activity (me)
+  ╚══════════════════════════════════════════════════╝*/
+.history-day.lv-0[data-v-b79eb0f0], .tooltip .circle.lv-0[data-v-b79eb0f0] {
+     visibility: hidden;
+}
+
+/*╔══════════════════════════════════════════════════╗
+                   Changes banner and bottom navbar (me, inspo via ChriSenpai)
+  ╚══════════════════════════════════════════════════╝*/
+.banner[data-v-4f7beb35] {
+    margin-top: 57px;
+    margin-left: 192px;
+    margin-right: 192px;
+    border-radius: 30px 30px 0 0;
+}
+.header-wrap > .nav-wrap {
+    max-width: 77.5%;
+    margin: 0 auto;
+    box-shadow: var(--nutella-ns);
+    position: relative;
+    border-radius: 0 0 30px 30px;
+}
+
+/*╔══════════════════════════════════════════════════╗
                    Adds Navbar Symbols
   ╚══════════════════════════════════════════════════╝*/
 .link[data-v-4f7beb35]:nth-child(1):before {
@@ -35,11 +59,14 @@
 }
 
 /*==================================================
-  Changes max height of bio so bg photo stays put (me)
+             Changes max height of bio so bg photo stays put (me)
 ==================================================*/
 .about > .content-wrap {
      max-height: 428px;
      height: 428px;
+}
+.about .content-wrap[data-v-5c30286e] {
+     max-height: 428px; 
 }
 
 /*==================================================
@@ -315,13 +342,18 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
          Changes AL Home Logo & Adds Hover 
 ==================================================*/
 .logo img[data-v-4fbac4e1] {
-    content: url(https://i.pinimg.com/originals/ee/c5/81/eec58180fc6de77307d69694d316ecdd.png);
+    content: url(https://files.catbox.moe/18252l.png);
 }
 .logo:hover {
     transition: transform 0.5s ease-in-out;
     transform: scale(1.2);
     border-radius: 20px;
     overflow: hidden;
+}
+.logo img[data-v-4fbac4e1] {
+    height: 40px;
+    width: 48px;
+    margin-bottom: 1.5px;
 }
 
  /*==================================================
@@ -372,7 +404,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 }
 
 /*==================================================
-       Adds Search AniList Bar at Top Navbar 
+       Adds Search AniList Bar at Top Navbar (last 3 by me)
 ==================================================*/
   .nav .wrap {
       display: grid;
@@ -386,7 +418,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
       grid-column-start: 2;
       grid-row-start: 1;
       padding: 10px;
-      background-color: #0f161f;
+      background-color: #060c13;
       border-radius: 35px;
       width: 100%;
       cursor: text;
@@ -402,6 +434,15 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
       grid-row-start: 1;
       margin-left: -15px;
   }
+.input .hint[data-v-bcbe965e] {
+    visibility: hidden;
+}
+.input[data-v-bcbe965e] {
+    background: #060c13;
+}
+.site-theme-dark .quick-search .result-col .title {
+    color: #FFFFFF;
+}
 
 /*==================================================
     Favorites section (ChriSenpai fix) // Also removes favorite's container bg (me)
@@ -459,7 +500,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 }
 
 /*==================================================
-          Text colors (hover, active, etc.) (me)
+                     Text colors (hover, active, etc.) (me)
 ==================================================*/
 .filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .hohStatsTrigger:hover {
       color: #3db4f2;
@@ -608,7 +649,6 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/d6g747.jpg) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
-    margin-right: 5px!important;
 }
 
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
@@ -616,7 +656,6 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/46ljjq.jpg) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
-    margin-right: 5px!important;
 }
 
 .about .content-wrap[data-v-5c30286e] {
@@ -624,7 +663,6 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
     background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://i.insider.com/5732437c910584716f8c1d57?width=1000&format=jpeg&auto=webp) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
-    margin-right: 5px!important;
 }
 
 .about .content-wrap .markdown {
@@ -639,6 +677,6 @@ opacity: 1;
        Makes navbar have a shorter height and invisible (sundays)
 ==================================================*/
 #nav.nav {
-    height: 50px;
+    height: 58px;
     background: rgba(33, 22, 21, 0.0);
 }
