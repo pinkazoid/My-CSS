@@ -1,3 +1,39 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+/*╔══════════════════════════════════════════════════╗
+                   Adds Navbar Symbols
+  ╚══════════════════════════════════════════════════╝*/
+.link[data-v-4f7beb35]:nth-child(1):before {
+  content: "\f007";
+  font-family: "FontAwesome";
+  font-size: 15px;\
+}
+.link[data-v-4f7beb35]:nth-child(2):before {
+  font-family: "FontAwesome";
+  font-size: 15px;
+  content: "\f108";
+}
+.link[data-v-4f7beb35]:nth-child(3):before {
+  font-family: "FontAwesome";
+  font-size: 15px;
+  content: "\f02d";
+}
+.link[data-v-4f7beb35]:nth-child(4):before {
+  font-family: "FontAwesome";
+  font-size: 15px;
+  content: "\f004";
+}
+.link[data-v-4f7beb35]:nth-child(5):before {
+  font-family: "FontAwesome";
+  font-size: 15px;
+  content: "\f201";
+}
+.link[data-v-4f7beb35]:nth-child(6):before {
+  font-family: "FontAwesome";
+  font-size: 15px;
+  content: "\f075";
+}
+
 /*==================================================
              Removes Max-Height from Bio
 ==================================================*/
