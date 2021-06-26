@@ -575,7 +575,7 @@ Changes stuff inside container(hover and other stuff)
 }
 
 /*==================================================
-       Adds image to stats & bio (ChriSenpai)
+     Adds image to stats & bio // also adds hover for bio (ChriSenpai)
 ==================================================*/
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
     background-color: rgb(var(--color-foreground));
@@ -602,4 +602,12 @@ Changes stuff inside container(hover and other stuff)
     background-size: fit;
     margin-right: 5px!important;
     border: 5px solid #151f2e
+}
+
+.about .content-wrap .markdown {
+opacity: 0;
+transition: all 0.5s ease-in-out;;
+}
+.about .content-wrap:hover .markdown {
+opacity: 1;
 }
