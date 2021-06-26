@@ -351,8 +351,8 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
     overflow: hidden;
 }
 .logo img[data-v-4fbac4e1] {
-    height: 40px;
-    width: 48px;
+    height: 36px;
+    width: 43px;
     margin-bottom: 1.5px;
 }
 
