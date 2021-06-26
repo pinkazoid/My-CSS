@@ -611,3 +611,11 @@ transition: all 0.5s ease-in-out;;
 .about .content-wrap:hover .markdown {
 opacity: 1;
 }
+
+/*==================================================
+ Makes navbar have a shorter height and invisible (sundays)
+==================================================*/
+#nav.nav {
+    height: 50px;
+    background: rgba(33, 22, 21, 0.0);
+}
