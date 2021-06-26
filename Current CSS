@@ -35,10 +35,11 @@
 }
 
 /*==================================================
-             Removes Max-Height from Bio
+             Changes max height of bio so bg photo stays put
 ==================================================*/
 .about > .content-wrap {
-     max-height: none !important;
+     max-height: 428px;
+     height: 428px;
 }
 
 /*==================================================
