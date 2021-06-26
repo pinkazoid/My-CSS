@@ -552,17 +552,6 @@ Changes stuff inside container(hover and other stuff)
     content: url(https://files.catbox.moe/6i1iou.jpg);
 }
 
-/*╔══════════════════════════════════════════════════╗
-             Border around Favorites
-  ╚══════════════════════════════════════════════════╝*/
-.favourite[data-v-0317d914] {
-    border: 1px solid #3db4f2;
-}
-
-.favourite[data-v-0317d914]:hover {
-    border: 1px solid #FFFFFF;
-}
-
 /*==================================================
        Adds a gif or image to search button 
 ==================================================*/
@@ -583,7 +572,6 @@ Changes stuff inside container(hover and other stuff)
     background-repeat: no-repeat;
     background-size: fit;
     margin-right: 5px!important;
-    border: 5px solid #151f2e
 }
 
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
@@ -592,7 +580,6 @@ Changes stuff inside container(hover and other stuff)
     background-repeat: no-repeat;
     background-size: fit;
     margin-right: 5px!important;
-    border: 5px solid #151f2e
 }
 
 .about .content-wrap[data-v-5c30286e] {
@@ -601,7 +588,6 @@ Changes stuff inside container(hover and other stuff)
     background-repeat: no-repeat;
     background-size: fit;
     margin-right: 5px!important;
-    border: 5px solid #151f2e
 }
 
 .about .content-wrap .markdown {
