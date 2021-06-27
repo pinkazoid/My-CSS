@@ -1,14 +1,44 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*╔══════════════════════════════════════════════════╗
-                   Hides history days that show no activity (me)
+    Adds image to footer (me, coding from ChriSenpai)
+  ╚══════════════════════════════════════════════════╝*/
+.footer[data-v-a5dce466] {
+    background-color: rgb(var(--color-foreground));
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://freepngimg.com/thumb/fire/28343-4-blue-fire-hd.png) center/112%;
+    background-repeat: no-repeat;
+    background-size: fit;
+}
+
+/*╔══════════════════════════════════════════════════╗
+    Hides default and high-contrast theme options (me)
+  ╚══════════════════════════════════════════════════╝*/
+.contrast[data-v-a5dce466], .default[data-v-a5dce466] {
+    display: none;
+}
+
+/*╔══════════════════════════════════════════════════╗
+      Changes some design stuff in anime and manga lists (me, inspo via ChriSenpai)
+  ╚══════════════════════════════════════════════════╝*/
+.medialist.table .list-head {
+    background: #1b021c;
+    color: #FFFFFF;
+    border-radius: 30px 30px 4px 4px;
+}
+
+.medialist.table .list-section {
+    border-radius: 30px;
+}
+
+/*╔══════════════════════════════════════════════════╗
+        Hides history days that show no activity (me)
   ╚══════════════════════════════════════════════════╝*/
 .history-day.lv-0[data-v-b79eb0f0], .tooltip .circle.lv-0[data-v-b79eb0f0] {
      visibility: hidden;
 }
 
 /*╔══════════════════════════════════════════════════╗
-                   Changes banner and bottom navbar (me, inspo via ChriSenpai)
+  Changes banner and bottom navbar (me, inspo via ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 .banner[data-v-4f7beb35] {
     margin-top: 57px;
@@ -404,7 +434,7 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 }
 
 /*==================================================
-       Adds Search AniList Bar at Top Navbar (last 3 by me)
+       Adds Search AniList Bar at Top Navbar (last 4 by me)
 ==================================================*/
   .nav .wrap {
       display: grid;
@@ -442,6 +472,9 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 }
 .site-theme-dark .quick-search .result-col .title {
     color: #FFFFFF;
+}
+.el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner {
+    background: #060c13;
 }
 
 /*==================================================
@@ -502,11 +535,11 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
 /*==================================================
                      Text colors (hover, active, etc.) (me)
 ==================================================*/
-.filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .hohStatsTrigger:hover {
+.filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .hohStatsTrigger:hover, .footer .links a:hover {
       color: #3db4f2;
 }
 
-.medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .about .content-wrap .markdown[data-v-5c30286e], .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1] {
+.medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .about .content-wrap .markdown[data-v-5c30286e], .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1], .footer .links a {
       color: #FFFFFF;
 }
 
