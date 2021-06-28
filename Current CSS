@@ -1,7 +1,18 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*╔══════════════════════════════════════════════════╗
-    Adds image to footer (me, coding from ChriSenpai)
+                 Adds Background Image
+  ╚══════════════════════════════════════════════════╝*/
+body {
+    background-image: url("https://files.catbox.moe/gyyqz4.jpg");
+    background-position: 50% 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*╔══════════════════════════════════════════════════╗
+       Adds image to footer (me, coding from ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 .footer[data-v-a5dce466] {
     background-color: rgb(var(--color-foreground));
@@ -11,7 +22,7 @@
 }
 
 /*╔══════════════════════════════════════════════════╗
-    Hides default and high-contrast theme options (me)
+      Hides default and high-contrast theme options (me)
   ╚══════════════════════════════════════════════════╝*/
 .contrast[data-v-a5dce466], .default[data-v-a5dce466] {
     display: none;
@@ -31,14 +42,14 @@
 }
 
 /*╔══════════════════════════════════════════════════╗
-        Hides history days that show no activity (me)
+                   Hides history days that show no activity (me)
   ╚══════════════════════════════════════════════════╝*/
 .history-day.lv-0[data-v-b79eb0f0], .tooltip .circle.lv-0[data-v-b79eb0f0] {
      visibility: hidden;
 }
 
 /*╔══════════════════════════════════════════════════╗
-  Changes banner and bottom navbar (me, inspo via ChriSenpai)
+                   Changes banner and bottom navbar (me, inspo via ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 .banner[data-v-4f7beb35] {
     margin-top: 57px;
@@ -339,6 +350,8 @@ a[href="/user/Hentai/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::a
 a[href="/user/Koffi/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
+
+a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'joke buddy ♡'; }
 
 /*==================================================
        Adds text at bottom of activity boxes 
@@ -649,18 +662,28 @@ a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link):
   ╚══════════════════════════════════════════════════╝*/
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(1) {
     content: url(https://files.catbox.moe/fpou4x.jpg);
+    max-width: 85px;
+    width: 85px;
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(2) {
     content: url(https://files.catbox.moe/ifobrc.jpg);
+    max-width: 85px;
+    width: 85px;
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(3) {
     content: url(https://files.catbox.moe/kqa56g.jpg);
+    max-width: 85px;
+    width: 85px;
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(4) {
     content: url(https://files.catbox.moe/d9hq0s.jpg);
+    max-width: 85px;
+    width: 85px;
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(5) {
     content: url(https://files.catbox.moe/6i1iou.jpg);
+    max-width: 85px;
+    width: 85px;
 }
 
 /*==================================================
