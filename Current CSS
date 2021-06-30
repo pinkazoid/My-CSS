@@ -1,6 +1,15 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 /*╔══════════════════════════════════════════════════╗
+                 Activity border (Wing)
+  ╚══════════════════════════════════════════════════╝*/
+.wrap > .text {
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-left-color: #3db4f2;
+}
+
+/*╔══════════════════════════════════════════════════╗
                  Adds Background Image
   ╚══════════════════════════════════════════════════╝*/
 body {
