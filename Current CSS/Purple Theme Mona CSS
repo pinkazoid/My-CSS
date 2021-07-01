@@ -1,8 +1,5 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
-/*╔══════════════════════════════════════════════════╗
-                 Purple theme (me)
-  ╚══════════════════════════════════════════════════╝*/
 .label[data-v-aedb6876] {
    color: #665473;
 }
@@ -22,7 +19,7 @@
 [data-v-bcbe965e] .result .open-list-editor {
    color: #1f0d24;
 }
-.footer[data-v-38edf8f8], .footer[data-v-04b245e6], .activity-editor-unscoped .el-dialog__body, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .el-input--prefix .el-input__inner, .list-editor-wrap .el-textarea__inner, .list-editor-wrap .list-editor .body .delete-btn, .el-input-number.is-controls-right .el-input__inner, .el-message-box__btns button:nth-child(1) {
+.footer[data-v-38edf8f8], .footer[data-v-04b245e6], .activity-editor-unscoped .el-dialog__body, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .list-editor-wrap .el-textarea__inner, .list-editor-wrap .list-editor .body .delete-btn, .el-input-number.is-controls-right .el-input__inner, .el-message-box__btns button:nth-child(1) {
    background: #1e0c22;
 }
 .el-slider__runway {
@@ -43,7 +40,7 @@
 .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox .el-checkbox__inner {
     border: #b368e6;
 }
-.el-message-box .el-input__inner, .reply[data-v-732ef224] {
+.el-message-box .el-input__inner, .reply[data-v-732ef224], .el-input--prefix .el-input__inner {
     background: #100613;
 }
 
@@ -617,7 +614,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
       color: #FFFFFF;
 }
 
-.nav .link[data-v-4f7beb35], .text .activity-markdown[data-v-1bf2cf4e], .input[data-v-c574a71c] .el-textarea__inner, .list.small .details[data-v-1bf2cf4e], .input input[data-v-bcbe965e], [data-v-bcbe965e] .result,.milestones .milestone[data-v-815ccddc], .primary-link-text[data-v-38edf8f8], .secondary-links a[data-v-38edf8f8], .primary-link .icon[data-v-38edf8f8], .footer a[data-v-38edf8f8], .input .icon[data-v-bcbe965e], .input .icon.right[data-v-bcbe965e], .hohPinned .activity-markdown, .primary-link[data-v-04b245e6], .footer[data-v-04b245e6], .primary-link .icon[data-v-04b245e6], .time[data-v-1bf2cf4e], .extras-dropdown .el-dropdown-link[data-v-1bf2cf4e], .el-dropdown-menu, .el-dropdown-menu__item, .activity-extras-dropdown .icon svg[data-v-1bf2cf4e], .el-select-dropdown__item, .el-input--prefix .el-input__inner, .medialist.table .list-section, .medialist .filters .filter-group:first-child > span, .theme-switch .icon[data-v-0567dd85], .user-social .filter-group span, .hohThemeSwitch > span, .user-social .filter-group span.active, .hohThemeSwitch .active, .scroller > .load-more, .button.cancel[data-v-c574a71c], .user-page-unscoped .markdown-editor, .el-dropdown[data-v-09492909], .el-dropdown[data-v-09492909]:hover, .hohPinned .time, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .el-input-number.is-controls-right .el-input__inner, .list-editor-wrap .el-textarea__inner, .el-input__icon, .el-input-number.is-controls-right .el-input-number__decrease [class*=el-icon], .el-input-number.is-controls-right .el-input-number__increase [class*=el-icon], .list-editor-wrap .list-editor .body .delete-btn, .list-editor-wrap .list-editor .body .checkbox .el-checkbox__label, .el-select .el-input .el-select__caret, .el-message-box .el-input__inner, .el-message-box__btns button:nth-child(1), .el-message-box__headerbtn .el-message-box__close, .el-select .el-input__inner, .el-input--suffix .el-input__inner, .list-editor-wrap .el-dialog__headerbtn .el-dialog__close, .reply[data-v-732ef224] .markdown, .actions .time[data-v-732ef224] {
+.nav .link[data-v-4f7beb35], .text .activity-markdown[data-v-1bf2cf4e], .input[data-v-c574a71c] .el-textarea__inner, .list.small .details[data-v-1bf2cf4e], .input input[data-v-bcbe965e], [data-v-bcbe965e] .result,.milestones .milestone[data-v-815ccddc], .primary-link-text[data-v-38edf8f8], .secondary-links a[data-v-38edf8f8], .primary-link .icon[data-v-38edf8f8], .footer a[data-v-38edf8f8], .input .icon[data-v-bcbe965e], .input .icon.right[data-v-bcbe965e], .hohPinned .activity-markdown, .primary-link[data-v-04b245e6], .footer[data-v-04b245e6], .primary-link .icon[data-v-04b245e6], .time[data-v-1bf2cf4e], .extras-dropdown .el-dropdown-link[data-v-1bf2cf4e], .el-dropdown-menu, .el-dropdown-menu__item, .activity-extras-dropdown .icon svg[data-v-1bf2cf4e], .el-select-dropdown__item, .el-input--prefix .el-input__inner, .medialist.table .list-section, .medialist .filters .filter-group:first-child > span, .theme-switch .icon[data-v-0567dd85], .user-social .filter-group span, .hohThemeSwitch > span, .user-social .filter-group span.active, .hohThemeSwitch .active, .scroller > .load-more, .button.cancel[data-v-c574a71c], .user-page-unscoped .markdown-editor, .el-dropdown[data-v-09492909], .el-dropdown[data-v-09492909]:hover, .hohPinned .time, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .el-input-number.is-controls-right .el-input__inner, .list-editor-wrap .el-textarea__inner, .el-input__icon, .el-input-number.is-controls-right .el-input-number__decrease [class*=el-icon], .el-input-number.is-controls-right .el-input-number__increase [class*=el-icon], .list-editor-wrap .list-editor .body .delete-btn, .list-editor-wrap .list-editor .body .checkbox .el-checkbox__label, .el-select .el-input .el-select__caret, .el-message-box .el-input__inner, .el-message-box__btns button:nth-child(1), .el-message-box__headerbtn .el-message-box__close, .el-select .el-input__inner, .el-input--suffix .el-input__inner, .list-editor-wrap .el-dialog__headerbtn .el-dialog__close, .reply[data-v-732ef224] .markdown, .actions .time[data-v-732ef224], .favourite.studio[data-v-0317d914] {
       color: #Bc8ec5;
 }
 
