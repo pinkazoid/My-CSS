@@ -22,7 +22,7 @@
 [data-v-bcbe965e] .result .open-list-editor {
    color: #1f0d24;
 }
-.footer[data-v-38edf8f8], .footer[data-v-04b245e6], .activity-editor-unscoped .el-dialog__body, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .list-editor-wrap .el-textarea__inner, .list-editor-wrap .list-editor .body .delete-btn, .el-input-number.is-controls-right .el-input__inner, .el-message-box__btns button:nth-child(1) {
+.footer[data-v-38edf8f8], .footer[data-v-04b245e6], .activity-editor-unscoped .el-dialog__body, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .input-wrap.manga input[placeholder="Status"], .input-wrap.anime input[placeholder="Status"], .input-wrap.anime .form.score input, .list-editor-wrap .el-textarea__inner, .list-editor-wrap .list-editor .body .delete-btn, .el-input-number.is-controls-right .el-input__inner, .el-message-box__btns button:nth-child(1), .el-input--prefix .el-input__inner {
    background: #1e0c22;
 }
 .el-slider__runway {
@@ -42,9 +42,6 @@
 }
 .el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox .el-checkbox__inner {
     border: #b368e6;
-}
-.el-message-box .el-input__inner, .reply[data-v-732ef224], .el-input--prefix .el-input__inner {
-    background: #100613;
 }
 
 /*╔══════════════════════════════════════════════════╗
@@ -544,7 +541,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 .input .hint[data-v-bcbe965e] {
     visibility: hidden;
 }
-.input[data-v-bcbe965e], .el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner, .progress[data-v-815ccddc], .el-slider__button {
+.input[data-v-bcbe965e], .el-input-group__append, .el-input-group__prepend, .el-input__inner, .el-textarea__inner, .progress[data-v-815ccddc], .el-slider__button, .reply[data-v-732ef224] {
     background: #100613;
 }
 .site-theme-dark .quick-search .result-col .title {
