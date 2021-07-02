@@ -1,5 +1,8 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
+/*╔══════════════════════════════════════════════════╗
+                 Purple theme
+  ╚══════════════════════════════════════════════════╝*/
 .label[data-v-aedb6876] {
    color: #665473;
 }
@@ -156,11 +159,11 @@ body {
              Changes max height of bio so bg photo stays put (me)
 ==================================================*/
 .about > .content-wrap {
-     max-height: 428px;
-     height: 428px;
+     max-height: 443px;
+     height: 443px;
 }
 .about .content-wrap[data-v-5c30286e] {
-     max-height: 428px; 
+     max-height: 443px; 
 }
 
 /*==================================================
