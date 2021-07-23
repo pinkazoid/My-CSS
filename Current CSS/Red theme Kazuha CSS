@@ -62,6 +62,7 @@ body {
     box-shadow: var(--nutella-ns);
     position: relative;
     border-radius: 0 0 30px 30px;
+    background: #0c1623;
 }
 
 /*╔══════════════════════════════════════════════════╗
@@ -153,7 +154,6 @@ body {
     margin-right: 5px;
     background-color: rgba(var(--color-text-light));
 }
-
 .banner-content[data-v-5445dac8] {
     position: relative;
 }
@@ -399,37 +399,10 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 /*==================================================
                 Changes Username Font 
 ==================================================*/
-.name[data-v-4f7beb35] {
+.name[data-v-2431f6d8] {
     font-size: 2.6rem;
-    padding: 10px 15px 11px 15px;
     color: #fff;
     font-family: "Satisfy";
-    display: flex;
-    align-items: center;
-}
-
-  /*==================================================
-                  Badge next to name
-==================================================*/
-  .name[data-v-4f7beb35]::after {
-    content: "Move with the wind ♡";
-    position: relative;
-    left: 10px;
-    top: 10px;
-    background: rgba(var(--color-blue),.8);
-    border-radius: 10px;
-    color: rgba(255,225,255, 1);
-    padding: 5px 8px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    transition: .4s;
-    font-size: 1.5rem;
-    transition: .5s;
-    text-transform: capitalize;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-name: rainbow;
-    animation-timing-function: ease-in-out;
 }
 
 /*==================================================
