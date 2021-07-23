@@ -50,7 +50,7 @@ body {
 /*╔══════════════════════════════════════════════════╗
                    Changes banner and bottom navbar (me, inspo via ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
-.banner[data-v-4f7beb35] {
+.banner[data-v-2431f6d8] {
     margin-top: 57px;
     margin-left: 192px;
     margin-right: 192px;
@@ -704,6 +704,6 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
        Makes navbar have a shorter height and invisible (sundays)
 ==================================================*/
 #nav.nav {
-    height: 58px;
+    height: 57px;
     background: rgba(33, 22, 21, 0.0);
 }
