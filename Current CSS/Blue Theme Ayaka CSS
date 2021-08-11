@@ -388,8 +388,8 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
     overflow: hidden;
 }
 .logo img[data-v-4fbac4e1] {
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
     margin-bottom: 1.5px;
 }
 
@@ -663,7 +663,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 }
 
 /*==================================================
-     Adds image to stats (Chrisenpai)
+     Adds image to stats and footer (Chrisenpai)
 ==================================================*/
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
     background-color: rgb(var(--color-foreground));
