@@ -14,14 +14,14 @@
 .wrap > .text {
     border-left-width: 5px;
     border-left-style: solid;
-    border-left-color: #b368e6;
+    border-left-color: #3db4f2;
 }
 
 /*╔══════════════════════════════════════════════════╗
                  Adds Background Image
   ╚══════════════════════════════════════════════════╝*/
 body {
-    background-image: url("https://files.catbox.moe/n6hhbj.jpg");
+    background-image: url("https://files.catbox.moe/pxsczv.jpg");
     background-position: 50% 50%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@ body {
 /*╔══════════════════════════════════════════════════╗
                    Changes banner and bottom navbar (me, inspo via ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
-.banner[data-v-2431f6d8] {
+.banner[data-v-1cc2919e] { 
     margin-top: 57px;
     margin-left: 192px;
     margin-right: 192px;
@@ -76,32 +76,32 @@ body {
 /*╔══════════════════════════════════════════════════╗
                    Adds Navbar Symbols
   ╚══════════════════════════════════════════════════╝*/
-.link[data-v-4f7beb35]:nth-child(1):before {
+.link[data-v-2431f6d8]:nth-child(1):before {
   content: "\f007";
   font-family: "FontAwesome";
   font-size: 15px;\
 }
-.link[data-v-4f7beb35]:nth-child(2):before {
+.link[data-v-2431f6d8]:nth-child(2):before {
   font-family: "FontAwesome";
   font-size: 15px;
   content: "\f108";
 }
-.link[data-v-4f7beb35]:nth-child(3):before {
+.link[data-v-2431f6d8]:nth-child(3):before {
   font-family: "FontAwesome";
   font-size: 15px;
   content: "\f02d";
 }
-.link[data-v-4f7beb35]:nth-child(4):before {
+.link[data-v-2431f6d8]:nth-child(4):before {
   font-family: "FontAwesome";
   font-size: 15px;
   content: "\f004";
 }
-.link[data-v-4f7beb35]:nth-child(5):before {
+.link[data-v-2431f6d8]:nth-child(5):before {
   font-family: "FontAwesome";
   font-size: 15px;
   content: "\f201";
 }
-.link[data-v-4f7beb35]:nth-child(6):before {
+.link[data-v-2431f6d8]:nth-child(6):before {
   font-family: "FontAwesome";
   font-size: 15px;
   content: "\f075";
@@ -218,12 +218,12 @@ body {
 /*╔══════════════════════════════════════════════════╗
      Deletes "Submissions" & "Reviews" Link on Navbar
   ╚══════════════════════════════════════════════════╝*/
-.link[data-v-4f7beb35]:nth-child(7) {
+.link[data-v-2431f6d8]:nth-child(7) {
     display: none;
     visibility: hidden;
 }
 
-.link[data-v-4f7beb35]:nth-child(8) {
+.link[data-v-2431f6d8]:nth-child(8) {
     display: none;
     visibility: hidden;
 }
@@ -233,7 +233,7 @@ body {
 ==================================================*/
 html {
     scrollbar-width: thin;
-    scrollbar-color: #b368e6;
+    scrollbar-color: #3db4f2;
 }
 
 Chrome scrollbar:
@@ -247,7 +247,7 @@ Chrome scrollbar:
     background: #01232d;
 }
 ::-webkit-scrollbar-thumb {
-    background: #b368e6;
+    background: #3db4f2;
     -webkit-border-radius: 1ex;
 }
 
@@ -255,7 +255,7 @@ Chrome scrollbar:
              Spoiler Tag
 ==================================================*/
 .markdown .markdown-spoiler::before {
-    color: #b368e6;
+    color: #3db4f2;
     font-weight: 500;
     background: #0b1622;
     border-radius: 20px;
@@ -289,9 +289,9 @@ Chrome scrollbar:
 /*==================================================
        Special Badges - Only for Certain People
 ==================================================*/
-a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'Eternity ♡'; }
+a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'Her Excellency ♡'; }
 
-a[href="/user/uiriamu/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'the sexciest ♡'; }
+a[href="/user/willy/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'sugoi seggsy ♡'; }
 
 a[href="/user/Nashh/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'the coolest ♡'; }
 
@@ -379,7 +379,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
          Changes AL Home Logo & Adds Hover 
 ==================================================*/
 .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/usmm7i.png);
+    content: url(https://files.catbox.moe/d4rhxg.png);
 }
 .logo:hover {
     transition: transform 0.5s ease-in-out;
@@ -401,7 +401,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 }
 .link[data-v-4fbac4e1]:hover {
     transform: scale(1.2);
-    color: #b368e6;
+    color: #3db4f2;
 }
 
 /*==================================================
@@ -437,7 +437,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
   .nav .wrap .search:after {
       content: "Search AniList";
       margin-left: 10px;
-      color:#b368e6;
+      color:#3db4f2;
   }
   .nav .wrap .user {
       grid-column-start: 4;
@@ -514,10 +514,10 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
                      Text colors (hover, active, etc.) (me)
 ==================================================*/
 .filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .hohStatsTrigger:hover, .footer .links a:hover, h2[data-v-a5dce466].overview .favourites > .favourites-wrap {
-      color: #b368e6;
+      color: #3db4f2;
 }
 
-.medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .about .content-wrap .markdown[data-v-5c30286e], .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1], .footer .links a {
+.medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1], .footer .links a {
       color: #FFFFFF;
 }
 
@@ -655,7 +655,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
        Adds a gif or image to search button 
 ==================================================*/
 .search[data-v-4fbac4e1]:hover svg {
-    background: url(https://files.catbox.moe/4bevz3.gif);
+    background: url(https://files.catbox.moe/fbrqkz.gif);
     background-repeat: no-repeat;
     background-size: contain;
     color: #0010FF00;
@@ -663,17 +663,17 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 }
 
 /*==================================================
-     Adds image to stats and footer (Chrisenpai)
+     Adds image to stats (Chrisenpai)
 ==================================================*/
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
     background-color: rgb(var(--color-foreground));
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/svibnm.jpg) center/112%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/g9e81d.png) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
 }
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
     background-color: rgb(var(--color-foreground));
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/bfn3tt.png) center/112%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/ix699z.jpg) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
 }
@@ -682,6 +682,6 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
        Makes navbar have a shorter height and invisible (sundays)
 ==================================================*/
 #nav.nav {
-    height: 57px;
+    height: 56px;
     background: rgba(33, 22, 21, 0.0);
 }
