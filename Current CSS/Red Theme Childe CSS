@@ -682,6 +682,6 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
        Makes navbar have a shorter height and invisible (sundays)
 ==================================================*/
 #nav.nav {
-    height: 56px;
+    height: 55px;
     background: rgba(33, 22, 21, 0.0);
 }
