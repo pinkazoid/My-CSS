@@ -218,12 +218,12 @@ body {
 /*╔══════════════════════════════════════════════════╗
      Deletes "Submissions" & "Reviews" Link on Navbar
   ╚══════════════════════════════════════════════════╝*/
-.link[data-v-2431f6d8]:nth-child(7) {
+.link[data-v-1cc2919e]:nth-child(7) {
     display: none;
     visibility: hidden;
 }
 
-.link[data-v-2431f6d8]:nth-child(8) {
+.link[data-v-1cc2919e]:nth-child(8) {
     display: none;
     visibility: hidden;
 }
@@ -682,6 +682,6 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
        Makes navbar have a shorter height and invisible (sundays)
 ==================================================*/
 #nav.nav {
-    height: 55px;
+    height: 56px;
     background: rgba(33, 22, 21, 0.0);
 }
