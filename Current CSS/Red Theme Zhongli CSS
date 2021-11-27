@@ -21,7 +21,7 @@
                  Adds Background Image
   ╚══════════════════════════════════════════════════╝*/
 body {
-    background-image: url("https://files.catbox.moe/uxbz7n.jpg");
+    background-image: url("https://files.catbox.moe/qikp73.jpg");
     background-position: 50% 50%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -289,7 +289,7 @@ Chrome scrollbar:
 /*==================================================
        Special Badges - Only for Certain People
 ==================================================*/
-a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'Lover of Snezhnayan Queen ♡'; }
+a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'osmanthus wine tastes the same as I remember ♡'; }
 
 a[href="/user/willy/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'sugoi seggsy ♡'; }
 
@@ -379,7 +379,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
          Changes AL Home Logo & Adds Hover 
 ==================================================*/
 .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/yysm3d.png);
+    content: url(https://files.catbox.moe/u284s9.png);
 }
 .logo:hover {
     transition: transform 0.5s ease-in-out;
@@ -388,8 +388,8 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
     overflow: hidden;
 }
 .logo img[data-v-4fbac4e1] {
-    height: 45px;
-    width: 45px;
+    height: 43px;
+    width: 43px;
     margin-bottom: 1.5px;
 }
 
@@ -655,7 +655,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
        Adds a gif or image to search button 
 ==================================================*/
 .search[data-v-4fbac4e1]:hover svg {
-    background: url(https://files.catbox.moe/ar399r.gif);
+    background: url(https://files.catbox.moe/t7q0pc.gif);
     background-repeat: no-repeat;
     background-size: contain;
     color: #0010FF00;
@@ -667,13 +667,13 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 ==================================================*/
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
     background-color: rgb(var(--color-foreground));
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/8yzih8.jpg) center/112%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/8l1n0r.jpg) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
 }
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
     background-color: rgb(var(--color-foreground));
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/l6db3w.jpg) center/112%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/30eczt.png) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
 }
