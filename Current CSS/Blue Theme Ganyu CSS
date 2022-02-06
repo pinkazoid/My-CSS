@@ -14,14 +14,14 @@
 .wrap > .text {
     border-left-width: 5px;
     border-left-style: solid;
-    border-left-color: #da7b15;
+    border-left-color: #3db4f2;
 }
 
 /*╔══════════════════════════════════════════════════╗
                  Adds Background Image
   ╚══════════════════════════════════════════════════╝*/
 body {
-    background-image: url("https://files.catbox.moe/qikp73.jpg");
+    background-image: url("https://files.catbox.moe/8biadz.jpg");
     background-position: 50% 50%;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -71,40 +71,6 @@ body {
     position: relative;
     border-radius: 0 0 30px 30px;
     background: #0c1623;
-}
-
-/*╔══════════════════════════════════════════════════╗
-                   Adds Navbar Symbols
-  ╚══════════════════════════════════════════════════╝*/
-.link[data-v-2431f6d8]:nth-child(1):before {
-  content: "\f007";
-  font-family: "FontAwesome";
-  font-size: 15px;\
-}
-.link[data-v-2431f6d8]:nth-child(2):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f108";
-}
-.link[data-v-2431f6d8]:nth-child(3):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f02d";
-}
-.link[data-v-2431f6d8]:nth-child(4):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f004";
-}
-.link[data-v-2431f6d8]:nth-child(5):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f201";
-}
-.link[data-v-2431f6d8]:nth-child(6):before {
-  font-family: "FontAwesome";
-  font-size: 15px;
-  content: "\f075";
 }
 
 /*==================================================
@@ -176,26 +142,26 @@ body {
      content: url(https://files.catbox.moe/nu3jgm.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(4)>div>a:nth-child(3):hover {
-     content: url(https://files.catbox.moe/ggr9g2.gif);
+     content: url(https://files.catbox.moe/ro0qtd.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(4)>div>a:nth-child(4):hover {
-     content: url(https://files.catbox.moe/lq94zt.gif);
+     content: url(https://files.catbox.moe/gqknxb.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(4)>div>a:nth-child(5):hover {
-     content: url(https://files.catbox.moe/gqknxb.gif);
+     content: url(https://files.catbox.moe/bp1uky.gif);
 }
 
 /*╔══════════════════════════════════════════════════╗
          Adds gifs for favorite characters (ChriSenpai)
   ╚══════════════════════════════════════════════════╝*/
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(6)>div>a:nth-child(1):hover {
-     content: url(https://files.catbox.moe/sm50vq.gif);
+     content: url(https://files.catbox.moe/niyycp.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(6)>div>a:nth-child(2):hover {
      content: url(https://files.catbox.moe/tfi0wp.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(6)>div>a:nth-child(3):hover {
-     content: url(https://files.catbox.moe/niyycp.gif);
+     content: url(https://files.catbox.moe/sm50vq.gif);
 }
 #app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(6)>div>a:nth-child(4):hover {
      content: url(https://files.catbox.moe/13jl3q.gif);
@@ -233,7 +199,7 @@ body {
 ==================================================*/
 html {
     scrollbar-width: thin;
-    scrollbar-color: #da7b15;
+    scrollbar-color: #3db4f2;
 }
 
 Chrome scrollbar:
@@ -247,7 +213,7 @@ Chrome scrollbar:
     background: #01232d;
 }
 ::-webkit-scrollbar-thumb {
-    background: #da7b15;
+    background: #3db4f2;
     -webkit-border-radius: 1ex;
 }
 
@@ -255,7 +221,7 @@ Chrome scrollbar:
              Spoiler Tag
 ==================================================*/
 .markdown .markdown-spoiler::before {
-    color: #da7b15;
+    color: #3db4f2;
     font-weight: 500;
     background: #0b1622;
     border-radius: 20px;
@@ -289,7 +255,7 @@ Chrome scrollbar:
 /*==================================================
        Special Badges - Only for Certain People
 ==================================================*/
-a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'osmanthus wine tastes the same as I remember ♡'; }
+a[href="/user/April/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'healthy body, healthy mind ♡'; }
 
 a[href="/user/willy/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'sugoi seggsy ♡'; }
 
@@ -323,19 +289,19 @@ a[href="/user/triggersegfault/"]:not(.avatar):not(.user):not(.link):not(.primary
 
 a[href="/user/Joebev910/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
-a[href="/user/weebtrashlazz/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
+a[href="/user/punishedneet/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 a[href="/user/KawaiiStardust/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
-a[href="/user/Ky0/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
+a[href="/user/axiah/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
-a[href="/user/Purple/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
+a[href="/user/Pratham/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 a[href="/user/LunarEllyyy/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 a[href="/user/Adaptz/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
-a[href="/user/weebdonny/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
+a[href="/user/willy/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 a[href="/user/Glamoroki/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
@@ -346,6 +312,8 @@ a[href="/user/Koffi/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::af
 a[href="/user/Bluetaku/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'joke buddy ♡'; }
+
+a[href="/user/Imfao/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
 /*==================================================
        Adds text at bottom of activity boxes 
@@ -379,7 +347,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
          Changes AL Home Logo & Adds Hover 
 ==================================================*/
 .logo img[data-v-4fbac4e1] {
-    content: url(https://files.catbox.moe/1o47z3.png);
+    content: url(https://files.catbox.moe/4twuhi.png);
 }
 .logo:hover {
     transition: transform 0.5s ease-in-out;
@@ -401,7 +369,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 }
 .link[data-v-4fbac4e1]:hover {
     transform: scale(1.2);
-    color: #da7b15;
+    color: #3db4f2;
 }
 
 /*==================================================
@@ -437,7 +405,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
   .nav .wrap .search:after {
       content: "Search AniList";
       margin-left: 10px;
-      color: #da7b15;
+      color: #3db4f2;
   }
   .nav .wrap .user {
       grid-column-start: 4;
@@ -460,29 +428,10 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 /*==================================================
     Favorites section (ChriSenpai fix) // Also removes favorite's container bg (me)
 ==================================================*/
-.overview .favourites > .favourites-wrap {
-     overflow: visible;
-     background: none; !important
-     border-radius: 4px;
-     grid-gap: 20px !important;
-     display: grid !important;
-     grid-template-columns: repeat(auto-fill,85px);
-     justify-content: space-evenly;
-     margin-bottom: 15px;
-     padding: 15px !important;
-}
 .favourites .favourite:hover {
      transition: transform 0.15s ease-in-out;
      transform: scale(1.20);
      z-index: 20;
-}
-.favourite.studio {
-     background: none; !important
-     text-align: center;
-     font-size: 1.4rem;
-     font-weight: 600;
-     height: 25px;
-     width: auto;
 }
 
 /*==================================================
@@ -514,7 +463,7 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
                      Text colors (hover, active, etc.) (me)
 ==================================================*/
 .filter-group a.router-link-active[data-v-1e00b9da], .filter-group a[data-v-1e00b9da]:hover, .user-social .filter-group span.active, .filter-group .active[data-v-063397cc], .primary-link-text[data-v-38edf8f8]:hover, .secondary-links a[data-v-38edf8f8]:hover, .footer a[data-v-38edf8f8]:hover, .primary-link[data-v-04b245e6]:hover, .secondary-link[data-v-04b245e6]:hover, .hohStatsTrigger:hover, .footer .links a:hover, h2[data-v-a5dce466].overview .favourites > .favourites-wrap {
-      color: #da7b15;
+      color: #3db4f2;
 }
 
 .medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1], .footer .links a {
@@ -622,40 +571,11 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
     opacity: 1;
   }
 
-/*╔══════════════════════════════════════════════════╗
-         Adds Pictures for Favorite Studios (ChriSenpai)
-  ╚══════════════════════════════════════════════════╝*/
-#app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(1) {
-    content: url(https://files.catbox.moe/fpou4x.jpg);
-    max-width: 85px;
-    width: 85px;
-}
-#app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(2) {
-    content: url(https://files.catbox.moe/ifobrc.jpg);
-    max-width: 85px;
-    width: 85px;
-}
-#app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(3) {
-    content: url(https://files.catbox.moe/kqa56g.jpg);
-    max-width: 85px;
-    width: 85px;
-}
-#app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(4) {
-    content: url(https://files.catbox.moe/d9hq0s.jpg);
-    max-width: 85px;
-    width: 85px;
-}
-#app>div.page-content>div>div.content.container>div>div:nth-child(1)>div:nth-child(8)>div>a:nth-child(5) {
-    content: url(https://files.catbox.moe/6i1iou.jpg);
-    max-width: 85px;
-    width: 85px;
-}
-
 /*==================================================
        Adds a gif or image to search button 
 ==================================================*/
 .search[data-v-4fbac4e1]:hover svg {
-    background: url(https://files.catbox.moe/t7q0pc.gif);
+    background: url(https://files.catbox.moe/a1ezm3.gif);
     background-repeat: no-repeat;
     background-size: contain;
     color: #0010FF00;
@@ -667,13 +587,13 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 ==================================================*/
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(1) {
     background-color: rgb(var(--color-foreground));
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/ezwo05.jpg) center/112%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/weyb3t.png) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
 }
 .content.container>div>div:nth-child(2)>div.stats-wrap>div:nth-child(2) {
     background-color: rgb(var(--color-foreground));
-    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/npbax8.jpg) center/112%;
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.7)),url(https://files.catbox.moe/7ktsgl.jpg) center/112%;
     background-repeat: no-repeat;
     background-size: fit;
 }
