@@ -315,6 +315,8 @@ a[href="/user/SkylarSays/"]:not(.avatar):not(.user):not(.link):not(.primary-link
 
 a[href="/user/Imfao/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
 
+a[href="/user/weebdonny/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::after { content: 'moot ♡'; }
+
 /*==================================================
        Adds text at bottom of activity boxes 
 ==================================================*/
@@ -466,7 +468,7 @@ a[href="/user/Imfao/"]:not(.avatar):not(.user):not(.link):not(.primary-link)::af
       color: #b368e6;
 }
 
-.medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1], .footer .links a {
+.medialist .filters .filter-group:first-child > span:hover, .user-social .filter-group span:hover, .medialist.table.compact .section-name, .filter-group .group-header[data-v-063397cc], .section-header[data-v-ddf96a3c], .filter-group .group-header[data-v-1e00b9da], .hohStatsTrigger, .filter-group[data-v-e4963b98] .group-header, .overview[data-v-5c30286e] .section-header, .hohMilestones .stat .label, .list-stats[data-v-815ccddc]:nth-child(2) .stat[data-v-815ccddc]:nth-child(1) .label, .list-stats[data-v-815ccddc]:nth-child(1) .stat[data-v-815ccddc]:nth-child(1) .label, .heading h3[data-v-72dc5b51], .title[data-v-e74f4a6a], .link[data-v-4fbac4e1], .footer .links a, .stat .label[data-v-815ccddc] {
       color: #FFFFFF;
 }
 
